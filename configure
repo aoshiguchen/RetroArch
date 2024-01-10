@@ -2,16 +2,16 @@
 
 PACKAGE_NAME=retroarch
 
-sh qb/qb.init.sh
+. qb/qb.init.sh
 
-sh qb/qb.params.sh
+. qb/qb.params.sh
 
-sh qb/qb.system.sh
+. qb/qb.system.sh
 
-sh qb/qb.comp.sh
+. qb/qb.comp.sh
 
-sh qb/qb.libs.sh
+. qb/qb.libs.sh
 
-sh qb/qb.moc.sh
+. qb/qb.moc.sh
 
-sh qb/qb.make.sh
+. qb/qb.make.sh
